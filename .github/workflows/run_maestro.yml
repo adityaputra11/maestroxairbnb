@@ -11,4 +11,4 @@ jobs:
       - uses: mobile-dev-inc/action-maestro-cloud@v1.1.0
         with:
             api-key: ${{ secrets.MAESTRO_CLOUD_API_KEY }}
-            app-file: apk/airbnb.apk
+            app-file: airbnb.apk
