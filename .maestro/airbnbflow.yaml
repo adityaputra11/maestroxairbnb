@@ -46,4 +46,4 @@ appId: com.airbnb.android
 - waitForAnimationToEnd:
     timeout: 5000
 
-- stopRecording /Users/adityaputrapratama/.ssh/id_rsa_github_me.pub
+- stopRecording
