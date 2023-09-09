@@ -1,0 +1,49 @@
+# appId: com.airbnb.android
+# ---
+
+# - startRecording: booking
+
+# - launchApp
+
+# - runFlow:
+#     when:
+#       visible: Close
+#     file: login.yaml
+
+# - tapOn:
+#     id: "com.airbnb.android:id/start_button"
+# - tapOn:
+#     id: "com.airbnb.android:id/search_input"
+# - inputText: "Jakarta"
+# - tapOn:
+#     point: "50%,26%"
+# - tapOn:
+#     id: "com.airbnb.android:id/calendar_day_circle_view"
+#     index: 16
+# - tapOn:
+#     id: "com.airbnb.android:id/calendar_day_circle_view"
+#     index: 25
+# - tapOn:
+#     id: "com.airbnb.android:id/n2_simple_search_footer_gradient_button"
+# - repeat:
+#     times: 3
+#     commands:
+#       - tapOn: 
+#           id: "com.airbnb.android:id/plus_button"
+# - tapOn:
+#     id: "com.airbnb.android:id/n2_dls_action_footer_gradient_button"
+# - scrollUntilVisible:
+#     element: "Apartment in Kecamatan Tebet"
+#     direction: "DOWN"
+#     timeout: 50000 
+  
+# - tapOn:
+#     id: "com.airbnb.android:id/mini_passport_container"
+#     index: 0
+# - tapOn:
+#     id: "com.airbnb.android:id/n2_dls_action_footer_gradient_button"
+
+# - waitForAnimationToEnd:
+#     timeout: 5000
+
+# - stopRecording
