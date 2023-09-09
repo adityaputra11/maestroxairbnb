@@ -6,6 +6,7 @@ jobs:
     runs-on: "ubuntu-latest"
     name: Run Flow Maestro Cloud
     steps:
+      - uses: actions/checkout@v2
       - run: 7z x apk/airbnb.apk.zip
       - uses: mobile-dev-inc/action-maestro-cloud@v1.1.0
         with:
